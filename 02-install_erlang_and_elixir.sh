@@ -31,6 +31,10 @@ echo "--------------------"
 mix local.hex --force
 mix local.rebar
 
+echo "--------------------"
+echo "Phoenix:"
+echo "--------------------"
+mix archive.install hex phx_new --force
 
 
 
