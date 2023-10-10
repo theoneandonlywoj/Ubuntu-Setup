@@ -9,7 +9,7 @@ sudo apt install automake autoconf libreadline-dev -y
 sudo apt install libncurses-dev libssl-dev libyaml-dev -y
 sudo apt install libxslt-dev libffi-dev libtool unixodbc-dev -y
 sudo apt install unzip -y
-sudo apt-get install inotify-tools -y
+sudo apt-get install ca-certificates inotify-tools -y
 
 
 echo "--------------------"
