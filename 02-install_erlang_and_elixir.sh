@@ -1,9 +1,11 @@
 #!/bin/bash -i
+sudo apt-get install make libncurses5-dev g++ -y
+
 asdf plugin-add erlang
 asdf plugin-add elixir
 
 ERLANG_VERSION=26.1.1
-ELIXIR_VERSION=1.15.6-otp-26
+ELIXIR_VERSION=1.16.2-otp-26
 
 export KERL_CONFIGURE_OPTIONS="--disable-debug --without-javac"
 
